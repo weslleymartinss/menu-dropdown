@@ -46,6 +46,30 @@
     top: 11%;
 }
 
+/*dropdown lateral*/
+
+.dropdown-lateral {
+    display: none;
+    position: absolute;
+    background-color: #5f1e7510;
+    border-radius: 5px;
+    left: 101%;
+}
+
+.dropdown-lateral > li {
+    padding: 5px;
+    padding-left: 0px;
+}
+
+.dropdown-lateral > li > a {
+    color: black;
+}
+
+.dropdown-lateral-ativar:hover > .dropdown-lateral {
+    display: block;
+}
+
+
 
 
 
